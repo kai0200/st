@@ -1,0 +1,28 @@
+#!/bin/bash 
+BUCKET_ID=`echo $1 | awk -F@ '{print $1}'`
+
+USER_DOMAIN=`echo $1|awk -F@ '{print $2}'`
+
+echo "${BUCKET_ID} ${USER_DOMAIN}"
+
+case "${USER_DOMAIN}" in
+    "")
+        sudo ssh  mx${BUCKET_ID}.mail.domain.com
+              ;;
+    sodomain.com)
+        sudo ssh  mx${BUCKET_ID}.mail.sodomain.com
+              ;;
+    chinaren.com)
+        sudo ssh  mx${BUCKET_ID}.mail.chinaren.com
+              ;;
+    vip.domain.com)
+        sudo ssh  mx${BUCKET_ID}.vip.domain.com
+              ;;
+    711.com)
+        sudo ssh  mx${BUCKET_ID}.mail.711.com
+              ;;
+    *)
+        echo $"Usage: $0 bucket_id@domain.com{domain.com|sodomain.com|chinaren.com|vip.domaincom|711.com}"
+        exit 3;
+
+esac
