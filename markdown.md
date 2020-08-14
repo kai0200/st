@@ -108,3 +108,10 @@ Note right of C: 没人陪我玩
         压力测试                               :after a1  , 20h
         测试报告                               : 48h
 ```
+
+
+# 数学表达式
+
+[公式指导手册](https://www.zybuluo.com/codeep/note/163962)
+[公式参数](https://www.caam.rice.edu/~heinken/latex/symbols.pdf)
+
