@@ -10,3 +10,6 @@
 # 指定shell
 chsh -s /usr/bin/zsh
 
+# man
+man -a intro # -a all 显示所有的
+http://www.kernel.org/doc/man-pages/  # 网站
