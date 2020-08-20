@@ -30,3 +30,31 @@ func main() {
   input = input[:len(input)-1]
 }
 ```
+
+- 参数
+* build
+* clean
+* doc
+* env
+* fix
+* fmt
+* generate
+* get
+* install
+* list
+* run
+* test
+* tool
+* vet
+* version
+* -a
+* -n
+* -race
+* -v
+* -work
+* -x
+
+- go tool 
+* pprof
+* trace
+* https://github.com/GoHackers/go_command_tutorail 

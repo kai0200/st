@@ -34,3 +34,6 @@
 最后一步，要思考用所学做一个项目出来。
 
 
+# syslog-ng logstash ES 日志收集总结
+# zabbix 使用技巧
+
