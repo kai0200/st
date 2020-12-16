@@ -5,6 +5,15 @@ $ sh run.sh
 $ cd text
 $ ls out.txt
 
+# 目录
+
+README.md          说明文件
+files/             操作的目录
+get-html-text.py   html读取数据转txt程序
+htmlprettify.py    辅助工具让html代码可读性更高
+run.sh             运行脚本
+text/              生成结果的目录
+
 # 安装 pdf2xlsx_table
 
 1. 安装python3
