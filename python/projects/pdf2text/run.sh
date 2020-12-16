@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 OUT=out.txt
 
+[ -d files ] || mkdir files
+[ -d text ] || mkdir text
+
 # pdf to html
 for file in $(ls files/*.pdf)
 do

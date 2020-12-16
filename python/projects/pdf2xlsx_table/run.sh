@@ -2,6 +2,9 @@
 
 OUT=$OUT
 
+[ -d files ] || mkdir files
+[ -d xlsx ] || mkdir xlsx 
+
 # pdf to html
 for file in $(ls files/*.pdf)
 do
