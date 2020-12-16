@@ -5,6 +5,16 @@ $ sh run.sh
 $ cd xlsx
 $ ls out.xlsx
 
+# 多目录操作说明
+$ cd pdf2xlsx_table
+$ mkdir directorys
+把分好的目录放到directorys 目录里，run_directorys.sh 会逐个扫描里面的目录。
+$ ls directorys/user001
+$ sh -x run_directorys.sh
+执行完成后在目录里查看xlsx目录里的out.xlsx为结果文件
+$ ls directorys/user001/xlsx/user001-out.xlsx
+对应目录名-out.xlsx
+
 # 安装 pdf2xlsx_table
 
 1. 安装python3

@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-OUT=$OUT
+OUT=out.xlsx
 
 [ -d files ] || mkdir files
-[ -d xlsx ] || mkdir xlsx 
+[ -d xlsx ] || mkdir xlsx
 
 # pdf to html
 for file in $(ls files/*.pdf)
