@@ -37,3 +37,16 @@
 # syslog-ng logstash ES 日志收集总结
 # zabbix 使用技巧
 
+# Others
+- mac install Spectacle 快捷键控制窗左右半屏
+https://www.spectacleapp.com/
+
+- kitty 终端
+https://sw.kovidgoyal.net/kitty/index.html
+
+- Nerd font
+https://www.nerdfonts.com/
+brew install fontforge   # 自定义字体
+
+- iTerm2-Color-Schemes   # 终端配色
+https://github.com/mbadolato/iTerm2-Color-Schemes
