@@ -50,3 +50,12 @@ brew install fontforge   # 自定义字体
 
 - iTerm2-Color-Schemes   # 终端配色
 https://github.com/mbadolato/iTerm2-Color-Schemes
+
+- alacritty.conf 更新
+修改快捷键
+Alt|Shift + F ToggleFullscreen
+Command + C copy
+Command + P paste
+
+startup_mode: Windowed  # 启动改完win
+Command|Alt + F SimpleFullscreen
