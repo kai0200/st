@@ -1,7 +1,4 @@
-# Zabbix
-
-- 
-
+# Zabbix 概述 {{{
 自动化运维
 1. cobbler
 2. Ansible
@@ -18,38 +15,27 @@ zabbix 是Alexei Vladishev 的一家银行内部项目
 1. Zabbix Server
 2. Zabbix 代理
 3. Zabbix 前端
+}}}
 
+## zabbix server 安装 {{{
+- Read the md file
+zabbix/CendOS7-zabbix-5.2.1.md
+zabbix/RHEL7-zabbix-5.md }}}
 
-## zabbix server 安装
-基本上安装一次以后不会反复安装、采用代理方式使用yum安装。
-- yum 方式安装
-
-- 1. 安装软件仓库配置包
-```sh 
-rpm --httpproxy=https://10.18.32.193:3128 -Uvh https://mirrors.aliyun.com/zabbix/zabbix/5.0/rhel/7/x86_64/zabbix-release-5.0-1.el7.noarch.rpm
-
-rpm --httpproxy=https://10.18.32.193:3128 -Uvh https://mirrors.aliyun.com/zabbix/zabbix/5.0/rhel/7/x86_64/zabbix-release-5.0-1.el7.noarch.rpm
-
-```
-
-
-- server 升级
-
+## server 升级
 
 ## zabbix agent 自动化部署
-由于部署需要，采用源码编译方式编译出RHEL6/7的模式ansible 拷贝方式安装，外加需要编辑自启动命令systemctrl 调用
+测试rpm方式安装比较省事
+### 配置自动发现
 
-- 源码编译方式
+- rpm 方式安装
 
 
 ## zabbix_get 使用
 
 
-## 配置自动发现
-
 
 ## 自定义监控项目
-
 
 
 ## zabbix 资产管理
