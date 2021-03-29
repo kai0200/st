@@ -1,4 +1,4 @@
-#!/usr/bin/env  python3
+#!/usr/bin/env  python3.9
 # -*- coding: utf-8 -*-
 """
 Usage: python3 get-html-table.py HT15.html  > HT15_NEW.html
