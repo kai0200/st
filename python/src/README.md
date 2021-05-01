@@ -3,3 +3,4 @@
 
 # 2020-11-24 理解reduce/map/lambda 
 str2float.py  | 解决“123.11” 转为123.11 字符串转浮点
+prime_numbers.py | 求素数

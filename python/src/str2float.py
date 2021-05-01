@@ -66,5 +66,3 @@ def str2float(s):
 #print(num2str(1))
 #print(int2dec(123))
 print(str2float('123.123'))
-
-

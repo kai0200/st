@@ -1,7 +1,7 @@
 # ncurses
 
 ## git
-https://github.com/cpressey/ncurses_programs.git  
+[url]url(https://github.com/cpressey/ncurses_programs.git)
 
 ## 程序架构
 

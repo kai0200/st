@@ -82,5 +82,3 @@
 # 可以去挂载，普通用户可以执行sudo。
 # 
 # NFS server 关机的时候一点要确保NFS服务关闭，没有客户端处于连接状态！通过showmount -a 可以查看，如果有的话用kill killall pkill 来结束，（-9 强制结束）
- 
-
